@@ -12,9 +12,9 @@ class FeedbackWidget extends WebComponent {
   get html() {
     return `
     <section>
-      <button title="Trouver une assistance et donner mon avis">
+      <a title="Trouver une assistance et donner mon avis" target="blank" href="https://r0puhdz45xz.typeform.com/to/eogbFq6j">
         Que cherchez-vous ?
-      </button>
+      </a>
     </section>
     `
   }
@@ -28,7 +28,9 @@ class FeedbackWidget extends WebComponent {
       bottom: 48px;
     }
 
-    feedback-widget button {
+    feedback-widget a {
+      display: block;
+      text-decoration: none;
       border: 0;
       cursor: pointer;
       background: #000091;
