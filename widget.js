@@ -31,7 +31,7 @@ class FeedbackWidget extends WebComponent {
     feedback-widget a {
       display: block;
       text-decoration: none;
-      color: #ffffff;
+      color: #ffffff !important;
       border: 0;
       cursor: pointer;
       background: #000091;
