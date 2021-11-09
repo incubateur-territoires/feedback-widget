@@ -45,6 +45,11 @@ class FeedbackWidget extends WebComponent {
       font-style: normal;
       font-weight: bold;
     }
+    @media (max-width: 800px) {
+      feedback-widget {
+        display: none;
+      }
+    }
     `
   }
 }
