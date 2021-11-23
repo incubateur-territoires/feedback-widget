@@ -45,9 +45,21 @@ class FeedbackWidget extends WebComponent {
       font-style: normal;
       font-weight: bold;
     }
+
     @media (max-width: 800px) {
       feedback-widget {
-        display: none;
+        width: 56px;
+        height: 56px;
+      }
+
+      feedback-widget a {
+        background-image: url(https://incubateur-territoires.github.io/feedback-widget/images/mobile.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        text-indent: -5000%;
+        display: block;
+        padding: 16px;
+        border-radius: 8px;
       }
     }
     `
